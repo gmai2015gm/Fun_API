@@ -14,6 +14,14 @@ app.get('/joke', async (req: Request, res: Response) => {
   res.send(joke);
 });
 
+app.get('/*', (req: Request, res: Response) => {
+  res
+    .status(404)
+    .send({
+      message: 'Not all that Wander are lost... But I think you may be.',
+    });
+});
+
 app.listen(3000);
 
 console.log('Server Running on port 3000');
