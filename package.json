@@ -1,0 +1,23 @@
+{
+  "name": "fun_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node .\\build\\index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.4",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.1",
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "typescript": "^5.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
